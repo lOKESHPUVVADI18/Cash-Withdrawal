@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list-styles {
+  list-style-type: none;
+  width: 48%;
+  margin-bottom: 16px;
+}
+.button {
+  height: 30px;
+  width: 100%;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  margin: 5px;
+  color: #d4d2db;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}

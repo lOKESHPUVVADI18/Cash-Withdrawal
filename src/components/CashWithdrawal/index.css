@@ -1,0 +1,92 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.withdraw-container {
+  max-width: 350px;
+  background-color: #150b3e;
+  padding-top: 24px;
+  padding-left: 18px;
+  padding-bottom: 8px;
+  padding-right: 18px;
+  border-radius: 15px;
+}
+@media screen and (min-width: 768px) {
+  .withdraw-container {
+    width: 50%;
+    padding-top: 48px;
+    padding-left: 36px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    max-width: 422px;
+  }
+}
+.logo {
+  display: flex;
+}
+.logo-container {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #7c3aed;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  color: #d4d2db;
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-label {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #585076;
+  font-weight: 600;
+}
+.balance-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #d4d2db;
+  font-weight: 600;
+}
+.balance-span-text {
+  font-size: 14px;
+  color: #585076;
+}
+.withdraw-heading {
+  font-size: 26px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-weight: 400;
+}
+.withdraw-side-heading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.withdraw-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
+}
